@@ -1,0 +1,37 @@
+{
+    "name": "e2tmk-com/skeleton-module",
+    "description": "",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "André Felipe Domingues Stroppa",
+            "email": "andre.domingues@e2tmk.com"
+        },
+        {
+            "name": "Elias Olivtradet",
+            "email": "elias.olivtradet@e2tmk.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "require": {
+        "codeat3/blade-phosphor-icons": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Skeleton\\": "app/",
+            "Modules\\Skeleton\\Database\\Factories\\": "database/factories/",
+            "Modules\\Skeleton\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Skeleton\\Tests\\": "tests/"
+        }
+    },
+    "repositories": {}
+}

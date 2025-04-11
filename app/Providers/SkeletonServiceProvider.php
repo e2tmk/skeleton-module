@@ -6,6 +6,7 @@ namespace Modules\Skeleton\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use ModuleManager\ModuleManager\Concerns\HasServiceProviderMethods;
+use Modules\Skeleton\Console\Commands\ModuleBuildCommand;
 use Nwidart\Modules\Traits\PathNamespace;
 
 class SkeletonServiceProvider extends ServiceProvider
@@ -20,6 +21,12 @@ class SkeletonServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->bootConfigViewTranslationAndMigrations();
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                ModuleBuildCommand::class,
+            ]);
+        }
     }
 
     #[\Override]

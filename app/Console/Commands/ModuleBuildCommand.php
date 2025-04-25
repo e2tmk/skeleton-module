@@ -163,7 +163,7 @@ class ModuleBuildCommand extends Command
         $content = json_decode(File::get($filePath), true);
 
         // Update name
-        $content['name'] = "e2tmk-com/{$moduleNameLower}-module";
+        $content['name'] = "e2tmk/{$moduleNameLower}-module";
 
         // Update namespaces in autoload and autoload-dev
         $content['autoload']['psr-4'] = $this->updateNamespaces($content['autoload']['psr-4'], 'Skeleton', ucfirst($moduleNameLower));

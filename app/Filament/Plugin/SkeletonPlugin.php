@@ -17,7 +17,10 @@ class SkeletonPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        // ...
+        $panel
+            ->discoverResources(in: module_path('Skeleton', 'app/Filament/Resources'), for: 'Modules\\Skeleton\\Filament\\Resources')
+            ->discoverPages(in: module_path('Skeleton', 'app/Filament/Pages'), for: 'Modules\\Skeleton\\Filament\\Pages')
+            ->discoverWidgets(in: module_path('Skeleton', 'app/Filament/Widgets'), for: 'Modules\\Skeleton\\Filament\\Widgets');
     }
 
     public function boot(Panel $panel): void

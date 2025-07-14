@@ -6,5 +6,6 @@
     "priority": 0,
     "providers": ["Modules\\Skeleton\\Providers\\SkeletonServiceProvider"],
     "filament_plugins": ["Modules\\Skeleton\\Filament\\Plugin\\SkeletonPlugin"],
-    "files": []
+    "files": [],
+    "npm-packages": []
 }

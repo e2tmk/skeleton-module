@@ -1,6 +1,25 @@
 # Skeleton Module
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
+[![Total Downloads](https://img.shields.io/packagist/dt/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
+[![License](https://img.shields.io/packagist/l/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
+[![PHP Version Require](https://img.shields.io/packagist/php-v/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
+
 The Skeleton module serves as a template for creating new modules in the system. It provides a streamlined structure and a convenient command-line tool to quickly generate new modules based on this skeleton.
+
+## Installation
+
+You can install the package via composer:
+
+```bash
+composer require e2tmk/skeleton-module
+```
+
+## Requirements
+
+- PHP >= 8.2
+- Laravel >= 11.0
+- nwidart/laravel-modules >= 9.0
 
 ## Module Structure
 
@@ -78,3 +97,34 @@ php artisan module-build --name=Reports
 ```
 
 This will create a fully functional Reports module with all necessary files and configurations.
+
+## Testing
+
+```bash
+composer test
+```
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security Vulnerabilities
+
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Credits
+
+- [Elias Olivtradet](https://github.com/edeoliv)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+## Support
+
+If you discover any issues or have questions, please [open an issue](https://github.com/e2tmk/skeleton-module/issues) on GitHub.

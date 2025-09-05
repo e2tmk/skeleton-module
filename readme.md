@@ -3,7 +3,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
 [![Total Downloads](https://img.shields.io/packagist/dt/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
 [![License](https://img.shields.io/packagist/l/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
-[![PHP Version Require](https://img.shields.io/packagist/php-v/e2tmk/skeleton-module.svg?style=flat-square)](https://packagist.org/packages/e2tmk/skeleton-module)
 
 The Skeleton module serves as a template for creating new modules in the system. It provides a streamlined structure and a convenient command-line tool to quickly generate new modules based on this skeleton.
 
